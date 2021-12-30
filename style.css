@@ -1,0 +1,815 @@
+
+  #search{
+      border: none;
+      border-bottom: black 1px solid;
+      text-align: center;
+      font-family: 'Bebas Neue', cursive;      margin-left: 20px;
+      width: 200px;
+      font-size: 5vh;
+      margin-top: -10px;
+  }
+  #searchbar{
+      padding-right: 2em;
+  }
+  .kl1{
+    font-family: 'Bebas Neue', cursive;    font-size: 20px;
+    background-color: #bdc3c7;
+width: 50%;
+padding-left: 1em;
+}
+  #w1{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;text-align: center;
+    text-align: center;
+    margin-top: -0px;
+  }
+  #va{
+   
+    font-family: 'Bebas Neue', cursive;    width: 50%;
+    background-color: #bdc3c7;
+    font-size: 20px;
+margin-left: 150px;
+margin-top: -340px;
+  }
+  
+  .nav-link{
+    font-family: 'Bebas Neue', cursive;font-size: 6vh;
+color: rgb(151, 151, 151);
+margin-left: 20px;
+}
+  #dropdownMenuButton{
+    font-family: 'Bebas Neue', cursive;font-size: 6.1vh;
+color: rgb(151, 151, 151);
+margin-left: 20px;
+
+  }
+  .navbar-brand{
+  margin-left: 10px;
+  margin-top: -10px;
+  }
+  #logo{
+      font-size: 4vw;
+      font-family: 'Abril Fatface', cursive;
+      background-image: linear-gradient(#bdc3c7,#2c3e50);
+      -webkit-background-clip:text ;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      margin-top: 100px;
+    }
+    #bigpic{
+     margin-left: 200px;
+     margin-top: 30px;
+    }
+    .diveer{
+display: flex;
+
+    }
+    h2{
+        flex: 1;
+        padding-left: 5em;
+        font-family: 'Bebas Neue', cursive;font-size: 6vh;
+
+    }
+    .vertical {
+        border-left: 4px solid black;
+        height: 100px;
+        position:absolute;
+        left: 30%;
+    }
+    .vertical1 {
+        border-left: 4px solid black;
+        height: 100px;
+        position:absolute;
+        left: 70%;
+    }
+    #pick{
+     margin-left: -400px;
+    }
+    .diveer1{
+        display: flex;
+        margin-top: 30px;
+        
+            }
+            h4{
+                flex: 1;
+                padding-left: 6em;
+                font-family: 'Bebas Neue', cursive;
+                margin-top: 20px;
+                color: #343a40ff;
+
+        
+            }
+            #d{
+                flex: 1;
+                padding-left: 7em;
+                font-family: 'Bebas Neue', cursive;
+                color: #343a40ff;
+
+            }
+            #pic2{
+                   max-width: 100%;
+                   margin-top: 140px;
+                   margin-left: 100px;
+                   position: absolute;
+                   border: #495057 10px solid;
+                   border-image: linear-gradient(45deg, rgb(173, 181, 189), rgb(108, 117, 125) ,rgb(52, 58, 64)) 1;
+                }
+
+            #pic3{
+                max-width: 100%;
+                margin-top: 100px;
+                z-index: 1px;
+            }
+            #talk{
+                margin-top: 400px;
+                padding-left: 10em;
+                margin-left: 50px;
+            }
+            #para{
+                text-align: center;
+                font-family:'Lora', serif ;
+                font-size: 3vh;
+            }
+            h3{
+                text-align: center;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 10vh;
+            }
+            #row11{
+                padding-top: 3em;
+                background-color: rgb(235, 233, 233);
+                margin-top: 100px;
+                height: 400px;
+                width: 500px;
+                border: black 1.5px solid;
+
+            }
+            #pic11{
+                margin-left: 547px;
+                width: 600px;
+                margin-top: -429px;
+                max-width: 100%;
+            }
+            #listy{
+    padding-left: 2em;
+    list-style: circle;
+    font-size: 3vh;
+            }
+            #list{
+                font-family: 'Lora', serif;
+                padding: 1em;
+                
+            }
+            h4{
+              padding-left: 6em;
+            }
+            #green{
+                width: 300px;
+                border: white  10px solid;
+            }
+            #red{
+                width: 300px;
+                border: white  10px solid;
+                transform:rotate(10deg);              
+                margin-left: 40px;
+                max-width: 100%;
+
+            }
+            #blue{
+                width: 300px;
+                margin-left: -304px;
+                margin-top: 390px;
+                border: white  10px solid;  
+                transform:rotate(10deg);              
+            }
+            #vgy{
+                background-color: rgb(211, 211, 211);
+            }
+            #img22{
+                margin-left: -500px;
+                margin-top: 200px;
+                filter: drop-shadow(30px 10px 4px #929294);}
+                slideshow-container {
+                    position: relative;
+                    background: #f1f1f1f1;
+                  }
+                  
+                  /* Slides */
+                  .mySlides {
+                    display: none;
+                    padding: 80px;
+                    text-align: center;
+                    height: 200px;
+                    width: 500px;
+                    margin-left: 700px;
+
+                  }
+                  
+                  /* Next & previous buttons */
+                  .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    width: auto;
+                    margin-top: -120px;
+                    padding: 16px;
+                    color: #888;
+                    font-weight: bold;
+                    font-size: 20px;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                  }
+                  
+                  /* Position the "next button" to the right */
+                  .prev{
+                      margin-left: 700px;
+                  }
+                  .next {
+                    border-radius: 3px 0 0 3px;
+                    margin-left: 1150px;
+                  }
+                  
+                  /* On hover, add a black background color with a little bit see-through */
+                  .prev:hover, .next:hover {
+                    background-color: rgba(0,0,0,0.8);
+                    color: white;
+                  }
+                  
+                  /* The dot/bullet/indicator container */
+                  .dot-container {
+                    text-align: center;
+                    padding: 20px;
+                    width: 300px;
+                    margin-left: 800px;
+                  }
+                  
+                  /* The dots/bullets/indicators */
+                  .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: rgb(12, 12, 12);
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                  }
+                  
+                  /* Add a background color to the active dot/circle */
+                  .active, .dot:hover {
+                    background-color: #929292;
+                  }
+                  
+                  /* Add an italic font style to all quotes */
+                  q {font-style: italic;}
+                  
+                  /* Add a blue color to the author */
+                  .author {color: cornflowerblue;}
+                  #quote{
+                      font-size: 15vh;
+                      margin-left: 850px;
+                      font-family: 'Bebas Neue', cursive;
+                      margin-top: -500px;
+                  }
+                  .icons1{
+                    margin-left: 540px;
+                    margin-top: 50px;
+                  }
+                  #logo45{
+                    font-size: 4vw;
+                    font-family: 'Abril Fatface', cursive;
+                    background-image: linear-gradient(#bdc3c7,#2c3e50);
+                    -webkit-background-clip:text ;
+                    -webkit-text-fill-color: transparent;
+                    margin-left: 440px;
+                    margin-top: 0px;
+                  }
+                  footer{
+                    border-top: rgb(148, 148, 148) 5px solid;
+                    margin-top: 150px;
+                  }
+ @media  (max-width: 480px) {
+  
+  .icons1{
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  #logo45{
+    font-size: 9vw;
+    font-family: 'Abril Fatface', cursive;
+    background-image: linear-gradient(#bdc3c7,#2c3e50);
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    margin-left: 90px;
+    margin-top:10px;
+  }
+    #vgy{
+        background-color: rgb(211, 211, 211);
+        margin-top: 50px;  
+       }
+    slideshow-container {
+        position: relative;
+        background: #f1f1f1f1;
+      }
+      
+      /* Slides */
+      .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+        height: 200px;
+        width: 500px;
+        margin-left: -30px;
+        margin-top: -370px;
+
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        margin-top: -120px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .prev{
+          margin-left: 00px;
+      }
+      .next {
+        border-radius: 3px 0 0 3px;
+        margin-left: 410px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+      }
+      
+      /* The dot/bullet/indicator container */
+      .dot-container {
+        text-align: center;
+        padding: 20px;
+        width: 300px;
+        margin-left: 70px;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: rgb(12, 12, 12);
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      /* Add a background color to the active dot/circle */
+      .active, .dot:hover {
+        background-color: #929292;
+      }
+      
+      /* Add an italic font style to all quotes */
+      q {font-style: italic;}
+      
+      /* Add a blue color to the author */
+      .author {color: cornflowerblue;}
+    #quote{
+        font-size: 15vh;
+        margin-left: 120px;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: -50px;
+    }
+    #green{
+        display: none;
+    }
+    #red{
+        display: none;
+
+
+    }
+    #blue{
+        display: none;
+              
+    }
+    #row11{
+        padding-top: 2em;
+        background-color: rgb(235, 233, 233);
+        margin-top: 100px;
+        height: 400px;
+        width: 300px;
+        border: black 1.5px solid;
+
+    }
+    #pic11{
+       display: none;
+    }
+    #para{
+        font-family:'Lora', serif ;
+        font-size: 3vh;
+        margin-left: -120px;
+    }
+    h3{
+        margin-left: -120px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10vh;
+    }
+    #pic2{
+        max-width: 100%;
+        margin-top: 160px;
+        margin-left: -80px;
+        position: absolute;
+        border: #495057 10px solid;
+        border-image: linear-gradient(45deg, rgb(173, 181, 189), rgb(108, 117, 125) ,rgb(52, 58, 64)) 1;
+        
+     }
+  
+    .navbar-toggler{
+border: none;
+}
+#talk{
+    margin-top: 600px;
+    margin-left: -320px;
+    padding-right: 3em;
+}
+#searchbar{
+    display: none;
+        }
+        #logo{
+            font-size:30px;
+          }
+          #bigpic{
+              margin-left: -100px;
+            margin-top: 30px;
+           }
+           .diveer{
+            display: flex;
+            
+                }
+                h2{
+                    margin-left: -100px;
+                    font-family: 'Bebas Neue', cursive;font-size: 6vh;
+            
+                }
+                .vertical {
+                  display: none;
+                }
+                .vertical1 {
+                    display: none;
+
+                }
+                #pick{
+                 margin-left: -400px;
+                }
+                .diveer1{
+                    display: flex;
+                    margin-top: 30px;
+                    
+                        }
+                        h4{
+                            flex: 1;
+                            margin-left: -100px;
+
+                            font-family: 'Bebas Neue', cursive;
+                            margin-top: 20px;
+                            color: #343a40ff;
+            
+                    
+                        }
+                        #d{
+                            font-family: 'Bebas Neue', cursive;
+                            color: #343a40ff;
+            
+                        }
+                       
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+
+@media  (max-width: 320px) {
+  
+  .icons1{
+    margin-left:70px;
+    margin-top: 50px;
+  }
+  #logo45{
+    font-size: 10vw;
+    font-family: 'Abril Fatface', cursive;
+    background-image: linear-gradient(#bdc3c7,#2c3e50);
+    -webkit-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    margin-left: 40px;
+    margin-top:10px;
+  }
+
+    #vgy{
+        background-color: rgb(211, 211, 211);
+        margin-top: 50px;  
+       }
+    slideshow-container {
+        position: relative;
+        background: #f1f1f1f1;
+      }
+      
+      /* Slides */
+      .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+        height: 200px;
+        width: 400px;
+        margin-left: -50px;
+        margin-top: -370px;
+
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        margin-top: -120px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .prev{
+          margin-left: 00px;
+      }
+      .next {
+        border-radius: 3px 0 0 3px;
+        margin-left: 260px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+      }
+      
+      /* The dot/bullet/indicator container */
+      .dot-container {
+        text-align: center;
+        padding: 20px;
+        width: 300px;
+        margin-left: 0px;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: rgb(12, 12, 12);
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      /* Add a background color to the active dot/circle */
+      .active, .dot:hover {
+        background-color: #929292;
+      }
+      
+      /* Add an italic font style to all quotes */
+      q {font-style: italic;}
+      
+      /* Add a blue color to the author */
+      .author {color: cornflowerblue;}
+    #quote{
+        font-size: 15vh;
+        margin-left: 60px;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: -50px;
+    }
+    #green{
+        display: none;
+    }
+    #red{
+        display: none;
+
+
+    }
+    #blue{
+        display: none;
+              
+    }
+    #row11{
+        padding-top: 2em;
+        background-color: rgb(235, 233, 233);
+        margin-top: 100px;
+        height: 420px;
+        width: 300px;
+        border: black 1.5px solid;
+
+    }
+    #pic11{
+       display: none;
+    }
+    #para{
+        font-family:'Lora', serif ;
+        font-size: 3vh;
+        margin-left: -120px;
+    }
+    h3{
+        margin-left: -120px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10vh;
+    }
+    #pic2{
+        max-width: 100%;
+        margin-top: 160px;
+        margin-left: -80px;
+        position: absolute;
+        border: #495057 10px solid;
+        border-image: linear-gradient(45deg, rgb(173, 181, 189), rgb(108, 117, 125) ,rgb(52, 58, 64)) 1;
+        
+     }
+  
+    .navbar-toggler{
+border: none;
+}
+#talk{
+    margin-top: 600px;
+    margin-left: -320px;
+    padding-right: 3em;
+}
+#searchbar{
+    display: none;
+        }
+        #logo{
+            font-size:30px;
+          }
+          #bigpic{
+              margin-left: -100px;
+            margin-top: 30px;
+           }
+           .diveer{
+            display: flex;
+            
+                }
+                h2{
+                    margin-left: -100px;
+                    font-family: 'Bebas Neue', cursive;font-size: 6vh;
+            
+                }
+                .vertical {
+                  display: none;
+                }
+                .vertical1 {
+                    display: none;
+
+                }
+                #pick{
+                 margin-left: -400px;
+                }
+                .diveer1{
+                    display: flex;
+                    margin-top: 30px;
+                    
+                        }
+                        h4{
+                            flex: 1;
+                            margin-left: -100px;
+
+                            font-family: 'Bebas Neue', cursive;
+                            margin-top: 20px;
+                            color: #343a40ff;
+            
+                    
+                        }
+                        #d{
+                            font-family: 'Bebas Neue', cursive;
+                            color: #343a40ff;
+            
+                        }
+                       
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+
+@media only screen and (max-width: 480px)    {
+  h4{
+    flex: 1;
+    margin-left: -100px;
+
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+}
+#list{
+  font-family: 'Lora', serif;
+  padding: 1em;
+  font-size: 2vh;
+  
+}
+#vgy{
+  background-color: rgb(211, 211, 211);
+  margin-top: 50px;  
+ }
+slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  margin-left: -30px;
+  margin-top: -390px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  margin-top: -120px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.prev{
+    margin-left: 00px;
+}
+.next {
+  border-radius: 3px 0 0 3px;
+  margin-left: 310px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  margin-left: 70px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(12, 12, 12);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #929292;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+#quote{
+  font-size: 15vh;
+  margin-left: 90px;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: -50px;
+}
+.icons1{
+  margin-left:50px;
+  margin-top: 50px;
+}
+}
